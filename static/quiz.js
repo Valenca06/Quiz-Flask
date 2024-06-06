@@ -2,115 +2,179 @@ document.addEventListener("DOMContentLoaded", function () {
     let questions = [
         {
             numb: 1,
-            question: "Qual dos seguintes termos se refere a um conjunto de regras e padrões que define como os dados são transmitidos e recebidos em uma rede de computadores?",
-            answer: "A) Protocolo",
+            question: "Qual dos seguintes materiais é mais fácil de reciclar?",
+            answer: "B) Isopor",
             options: [
-                "A) Protocolo",
-                "B) Firewall",
-                "C) Roteador",
-                "D) Antivírus"
+                "A) Vidro",
+                "B) Isopor",
+                "C) Borracha",
+                "D) Tecidos sintéticos"
             ]
         },
         {
             numb: 2,
-            question: "O que significa a sigla “HTML”?",
-            answer: "B) Hyper Text Markup Language",
+            question: "Qual dos seguintes gases é considerado um gás de efeito estufa?",
+            answer: "C) Dióxido de carbono",
             options: [
-                "A) Hyper Transfer Markup Language",
-                "B) Hyper Text Markup Language",
-                "C) High Technology Modern Language",
-                "D) Home Tool Management Language"
+                "A) Nitrogênio",
+                "B) Oxigênio",
+                "C) Dióxido de carbono",
+                "D) Argônio"
             ]
         },
         {
             numb: 3,
-            question: "Qual dos seguintes sistemas operacionais é de código aberto e baseado no kernel do Linux?",
-            answer: "C) Ubuntu",
+            question: "Qual é o principal benefício das florestas para o clima global?",
+            answer: "B) Regulação da temperatura.",
             options: [
-                "A) Windows",
-                "B) macOS",
-                "C) Ubuntu",
-                "D) Android"
+                "A) Produção de madeira.",
+                "B) Regulação da temperatura.",
+                "C) Armazenamento de carbono.",
+                "D) Provisão de habitat para animais."
             ]
         },
         {
             numb: 4,
-            question: "O que é um “loop” em programação?",
-            answer: "B) Uma estrutura de controle que repete um bloco de código várias vezes",
+            question: "O que é a pegada ecológica?",
+            answer: "B) Medida do impacto ambiental causado por uma pessoa ou comunidade.",
             options: [
-                "A) Um dispositivo de entrada",
-                "B) Uma estrutura de controle que repete um bloco de código várias vezes",
-                "C) Um tipo de variável",
-                "D) Um comando para encerrar um programa"
+                "A) Quantidade de lixo produzido por uma pessoa.",
+                "B) Medida do impacto ambiental causado por uma pessoa ou comunidade.",
+                "C) Quantidade de energia consumida por uma residência.",
+                "D) Área de florestas preservadas por um país."
             ]
         },
         {
             numb: 5,
-            question: "5.	Qual dos seguintes tipos de armazenamento é mais rápido em termos de acesso aos dados?",
-            answer: "B) Unidade de estado sólido (SSD)",
+            question: "	O que significa a sigla ODSna ONU?",
+            answer: "A) Objetivos do Desenvolvimento Sustentável.",
             options: [
-                "A) Disco rígido (HDD)",
-                "B) Unidade de estado sólido (SSD)",
-                "C) Pen drive (USB)",
-                "D) CD-ROM"
+                "A) Objetivos do Desenvolvimento Sustentável.",
+                "B) Organização de Desenvolvimento Social.",
+                "C) Organização para a Defesa da Sustentabilidade.",
+                "D) Objetivos de Defesa da Sociedade."
             ]
         },
         {
             numb: 6,
-            question: "Sexta pergunta",
-            answer: "1",
+            question: "O que é sustentabilidade?",
+            answer: "A) Utilização de recursos naturais de maneira a garantir sua disponibilidade para futuras gerações.",
             options: [
-                "Opção 1",
-                "Opção 2",
-                "Opção 3",
-                "Opção 4"
+                "A) Utilização de recursos naturais de maneira a garantir sua disponibilidade para futuras gerações.",
+                "B) Exploração máxima dos recursos naturais para desenvolvimento econômico rápido.",
+                "C) Exclusivo uso de fontes de energia não renováveis.",
+                "D) Manutenção do status quo sem considerar o impacto ambiental."
             ]
         },
         {
             numb: 7,
-            question: "Sétima pergunta",
-            answer: "1",
+            question: "Qual prática agrícola ajuda a preservar a saúde do solo?",
+            answer: "C) Rotação de culturas.",
             options: [
-                "Opção 1",
-                "Opção 2",
-                "Opção 3",
-                "Opção 4"
+                "A) Monocultura.",
+                "B) Uso excessivo de adubo.",
+                "C) Rotação de culturas.",
+                "D) Uso de agrotóxicos "
             ]
         },
         {
             numb: 8,
-            question: "Oitava pergunta",
-            answer: "1",
+            question: "O que são áreas protegidas?",
+            answer: "B) Territórios onde a conservação da natureza é prioritária e atividades humanas são restritas.",
             options: [
-                "Opção 1",
-                "Opção 2",
-                "Opção 3",
-                "Opção 4"
+                "A) Regiões reservadas para exploração mineral.",
+                "B) Territórios onde a conservação da natureza é prioritária e atividades humanas são restritas.",
+                "C) Áreas destinadas exclusivamente à agricultura.",
+                "D) Locais para desenvolvimento urbano intensivo. "
             ]
         },
         {
             numb: 9,
-            question: "Nona pergunta",
-            answer: "1",
+            question: "O que é desenvolvimento sustentável?",
+            answer: "B) Desenvolvimento que visa atender às necessidades do presente sem comprometer a capacidade das futuras gerações de atenderem às suas próprias necessidades.",
             options: [
-                "Opção 1",
-                "Opção 2",
-                "Opção 3",
-                "Opção 4"
-            ]
-        },
-        {
-            numb: 10,
-            question: "Décima pergunta",
-            answer: "1",
-            options: [
-                "Opção 1",
-                "Opção 2",
-                "Opção 3",
-                "Opção 4"
+                "A) Desenvolvimento que não leva em consideração os recursos naturais.",
+                "B) Desenvolvimento que visa atender às necessidades do presente sem comprometer a capacidade das futuras gerações de atenderem às suas próprias necessidades.",
+                "C) Crescimento econômico a qualquer custo.",
+                "D) Exclusiva ênfase no crescimento industrial. "
             ]
         },
        
+        {
+            numb: 10,
+            question: "Qual a principal característica do Amianto que o impede de ser utilizado de forma sustentável ",
+            answer: "A) Contaminação que pode levar a diversos danos para a matéria orgânica ",
+            options: [
+                "A) Contaminação que pode levar a diversos danos para a matéria orgânica ",
+                "B) Alta resistência a degradação ",
+                "C) Versatilidade Industrial ",
+                "D) Flexibilidade "
+            ]
+        },
+        {
+            numb: 11,
+            question: "Que período histórico gerou danos imensos a camada de ozônio ",
+            answer: "D) Revolução industrial ",
+            options: [
+                "A)Era do Bronze",
+                "B)Idade média",
+                "C)Grandes navegações ",
+                "D) Revolução industrial "
+            ]
+        },
+
+        {
+            numb: 12,
+            question: "Qual o tipo de gás que foi amplamente utilizado no século 20 que causou danos a camada de ozônio e posteriormente a sua proibição em diversos países ",
+            answer: "D)Clorofluorcarboneto",
+            options: [
+                "A) Argônio ",
+                "B) Hélio ",
+                "C)Oganessônio",
+                "D)Clorofluorcarboneto"
+            ]
+        },
+        
+        {
+            numb: 13,
+            question: "Qual teoria defendia o desenvolvimento sustentável para solucionar problemas populacionais",
+            answer: "B) Teoria Ecomalthusiana",
+            options: [
+                "A) Teoria Demográfica Reformista",
+                "B) Teoria Ecomalthusiana",
+                "C)Teoria Malthusiana",
+                "D)Teoria Neomalthusiana"
+            ]
+        },
+        
+        {
+            numb: 14,
+            question: "A Conferência de Estocolmo teve como principal motivação:",
+            answer: "C) A discussão sobre uma base de desenvolvimento sustentável",
+            options: [
+                "A) A discussão sobre o uso de armas químicas ",
+                "B) A discussão sobre a paz mundial",
+                "C) A discussão sobre uma base de desenvolvimento sustentável",
+                "D) Discussão do livre comércio"
+            ]
+        },
+
+    
+        {
+            numb: 15,
+            question: "Que momento histórico teve maiores danos a biodiversidade mundial:",
+            answer: "A)Colonialismo",
+            options: [
+                "A)Colonialismo",
+                "B)Primavera Árabe ",
+                "C)Segunda guerra Mundial",
+                "D)Primeira Guerra Mundial "
+            ]
+        },
+
+
+
+
     ];
     //selecting all required elements
     const start_btn = document.querySelector(".start_btn button");
@@ -140,11 +204,11 @@ document.addEventListener("DOMContentLoaded", function () {
         quiz_box.classList.add("activeQuiz"); //show quiz box
         showQuetions(0); //calling showQestions function
         queCounter(1); //passing 1 parameter to queCounter
-        startTimer(15); //calling startTimer function
+        startTimer(40); //calling startTimer function
         startTimerLine(0); //calling startTimerLine function
     }
 
-    let timeValue = 15;
+    let timeValue = 40;
     let que_count = 0;
     let que_numb = 1;
     let userScore = 0;
@@ -159,7 +223,7 @@ document.addEventListener("DOMContentLoaded", function () {
     restart_quiz.onclick = () => {
         quiz_box.classList.add("activeQuiz"); //show quiz box
         result_box.classList.remove("activeResult"); //hide result box
-        timeValue = 15;
+        timeValue = 40;
         que_count = 0;
         que_numb = 1;
         userScore = 0;
